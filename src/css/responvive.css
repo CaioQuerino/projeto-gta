@@ -1,0 +1,356 @@
+
+@media(max-width: 1280px){
+    
+    .home::after{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(90deg, rgba(0, 0, 0, .85), rgba(0, 0, 0, .7) 35%, transparent 65%);
+    }
+    
+    .home .informacoes .lista-de-jogos{
+        
+        display: flex;}
+
+        
+    .home .informacoes{
+            gap: 10px;
+            padding: 0px 0px 0px 125px;
+            max-width: 400px;  
+    
+    }
+
+
+    .home .informacoes {
+        min-height: calc(100vh - 1000%);
+        padding: 100px 0px 0px 125px;
+        max-width: 600px;
+    }
+
+
+
+    
+    .home .informacoes  h1{
+        font-size: 52px;
+    }
+    
+    
+    .home .informacoes .texto{
+        font-size: 25px;
+    }
+    
+    .home .informacoes .lista-de-jogos img{
+        max-height: 150px;
+    }
+    
+    
+    
+    .historia .imagem-fundo{
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .historia {
+        position: relative;
+        height: 100vh; /* Ajuste a altura conforme necessário */
+        overflow: hidden; /* Evita que o conteúdo ultrapasse a altura da seção */
+    }
+    
+    
+    .conteiner {
+        min-height: calc(100vh - 90%);
+        max-height: 800px;
+        max-width: 3000px; /* Defina a largura máxima conforme necessário */
+        gap: 10px;
+    }
+    
+    
+    .conteiner .card-info .imagem-personagens{
+        max-width:500px;
+        height: 500px;
+    }
+
+    .conteiner .titulo{
+        font-size: 30px;
+    }
+
+    .conteiner .texto, .texto2{
+        font-size: 15px;
+    }
+    
+}
+
+
+
+
+@media(max-width: 1024px){
+    .home::after{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(90deg, rgba(0, 0, 0, .85), rgba(0, 0, 0, .7) 35%, transparent 65%);
+    }
+    
+    .home .informacoes .lista-de-jogos{
+        
+        display: flex;
+        
+    .home .informacoes {
+            gap: 10px;
+            padding: 0px 0px 0px 125px;
+            max-width: 400px;
+        }
+    
+    }
+
+
+    .home .informacoes {
+        min-height: calc(100vh - 1000%);
+        padding: 80px 0px 0px 125px;
+        max-width: 470px;
+    }
+
+
+
+    
+    .home .informacoes  h1{
+        font-size: 38px;
+    }
+    
+    
+    .home .informacoes .texto{
+        font-size: 15px;
+    }
+    
+    .home .informacoes .lista-de-jogos img{
+        max-height: 113px;
+    }
+    
+    
+    
+    .historia .imagem-fundo{
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .historia {
+        position: relative;
+        height: 100vh; /* Ajuste a altura conforme necessário */
+        overflow: hidden; /* Evita que o conteúdo ultrapasse a altura da seção */
+    }
+    
+    
+    .conteiner {
+        min-height: calc(100vh - 10%);
+        max-width: 1200px; /* Defina a largura máxima conforme necessário */
+    }
+    
+    
+    .conteiner .card-info .imagem-personagens{
+    
+        max-width:350px;
+    }
+    }
+   
+    
+
+
+    @media(max-width:912px){
+
+
+
+
+        .home .informacoes  h1{
+            display: flex;
+            flex-direction: column;
+            font-family: 'ChaletComprime';
+            font-size: 30px;
+          
+        }
+
+
+        .home .informacoes {
+            min-height: calc(100vh - 1000%);
+            gap: 10px;
+            padding: 80px 0px 0px 125px;
+            max-width: 400px;
+        }
+
+        
+        .home .informacoes .texto{
+            font-size: 16px;
+        }
+
+
+
+        .home::after{
+            height: 40%;
+        }
+
+        
+
+          
+            
+        
+        .btn-comprar, .btn-plataforma{
+            font-size: 15px;
+            width: 50%;
+        }
+
+        .compre-ja{
+            min-height: 100vh;  
+            background-color: blueviolet;
+        }
+
+        
+        .compre-ja .capa-do-jogo{
+            width: 200px;
+        }
+        
+
+        
+        
+        .compre-ja .titulo{
+            font-size: 30px;
+        }
+        
+        .compre-ja .cartao{
+            padding: 50px;  
+            height: 50%;  
+            gap: 20px;
+        }
+        
+        
+        
+        .card-info  {
+            display: flex;
+        }
+        
+        
+        .conteiner .card-info .imagem-personagens{
+            margin-top: 10px;
+            max-width:400px;
+            max-height:500px;
+        }
+        
+        .conteiner .card-info .logo-gta-v{
+            max-width: 90px;
+            margin-top: 60px;
+        }
+        
+        .conteiner .titulo{
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        
+        .conteiner .texto{
+            font-size: 15px;
+        
+            
+        }
+        
+        .conteiner .texto2{
+            margin-top: 18px;
+            font-size: 15px;
+        }
+    
+    }
+
+    @media(max-width:820px){
+        .home .informacoes .lista-de-jogos img{
+            max-height: 110px;
+        }
+
+        
+        .home .informacoes {
+            gap: 10px;
+            padding: 40px 0px 0px 90px;
+        }
+
+         .conteiner .card-info .imagem-personagens{
+            margin-top: 300px;
+            max-width:300px;
+            max-height: 300px;
+        }
+
+        .conteiner .card-info .logo-gta-v{
+            max-width: 120px;
+            margin-top: 230px;
+        }
+        
+        .conteiner .titulo{
+            margin-bottom: 10px;
+            font-size: 30px;
+        }
+        
+        .conteiner .texto{
+            font-size: 15px;
+        
+            
+        }
+        
+        .conteiner .texto2{
+            margin-top: 18px;
+            font-size: 15px;
+        }
+
+        
+        
+        .compre-ja{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            min-height: 100vh;  
+            background-color: blueviolet;
+            vertical-align: text-top;
+        }
+
+        
+        .compre-ja .capa-do-jogo{
+            width: 200px;
+        }
+        
+
+        
+        
+        .compre-ja .titulo{
+            font-size: 30px;
+        }
+        
+        .compre-ja .cartao{
+            padding: 50px;  
+            height: 50%;  
+            gap: 20px;
+        }
+        
+        .compre-ja .informacoes{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+        
+        .compre-ja .informacoes h3{
+            font-size:50px;
+        }
+        
+        .compre-ja .informacoes p{
+            font-size: 20px;
+        }
+        
+
+        
+        .compre-ja .btn-plataforma .plataformas{
+            margin: -15px;
+            gap: 10px;
+        }
+        
+        
+        
+        .compre-ja .btn-plataforma .plataformas li{
+            border-radius: 4px;
+            padding: 20px;
+        }
+    }
